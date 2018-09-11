@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 	int i, j, a, n, x[30];
 	scanf("%d", &n);
@@ -19,4 +19,5 @@ void main()
 	}
 	for (i = 0; i < n; ++i)
 		printf("%d\n", x[i]);
+	return 0;
 }
